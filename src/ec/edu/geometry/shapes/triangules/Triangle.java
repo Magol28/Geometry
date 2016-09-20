@@ -1,10 +1,10 @@
 
-package ec.edu.geometry.triangules;
+package ec.edu.geometry.shapes.triangules;
 
 import java.util.Objects;
 import ec.edu.geometry.Shape;
 
-public abstract class Triangle extends Shape{
+public abstract class Triangle implements Shape{
     protected Float sideOne;
     protected Float sideTwo;
     protected Float sideThree;

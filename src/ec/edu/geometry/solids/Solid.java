@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.geometry.quadrilaters;
+package ec.edu.geometry.solids;
+
+import ec.edu.geometry.Shape;
 
 /**
  *
  * @author Miguel_Angel
  */
-public class Parallelogram extends Rectangle{
-
-    public Parallelogram() {
-    }
-    
-  
-    
+public interface Solid {
+    public  Float Volume();
 }

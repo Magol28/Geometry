@@ -3,26 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.geometry.circunferences;
+package ec.edu.geometry.shapes.triangules;
+
+import java.util.Objects;
 
 /**
  *
  * @author Miguel_Angel
  */
-public class Circle extends Circunference{
-
-    public Circle(Float radio) {
-        super(radio);
+public class ObtuseAngleTriangle extends RigthAngleTriangle{
+   
+    public ObtuseAngleTriangle(Float base, Float heigth) {
+        super(base, heigth);
     }
+
+ 
 
     @Override
     public Float area() {
-    return(float) Math.PI*this.radio*this.radio;
+      return super.area();
     }
 
     @Override
     public Float perimeter() {
-     return(float) Math.PI*2*this.radio;   }
-    
+       return this.sideOne+this.sideTwo+this.sideThree;
+    }
     
 }

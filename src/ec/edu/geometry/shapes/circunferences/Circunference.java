@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.geometry.circunferences;
+package ec.edu.geometry.shapes.circunferences;
 
 import java.util.Objects;
 import ec.edu.geometry.Shape;
@@ -12,7 +12,7 @@ import ec.edu.geometry.Shape;
  *
  * @author Miguel_Angel
  */
-public abstract class Circunference extends Shape{
+public abstract class Circunference implements Shape{
     protected Float radio;
 
     public Circunference(Float radio) {

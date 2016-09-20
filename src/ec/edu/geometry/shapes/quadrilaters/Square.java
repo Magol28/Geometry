@@ -1,9 +1,9 @@
 
-package ec.edu.geometry.quadrilaters;
+package ec.edu.geometry.shapes.quadrilaters;
 
 public class Square extends Quadrilateral{
 
-    private Float side;
+    protected Float side;
 
     public Square(Float side) {
         this.side = side;

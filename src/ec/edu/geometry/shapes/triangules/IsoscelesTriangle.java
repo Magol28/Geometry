@@ -1,5 +1,5 @@
 
-package ec.edu.geometry.triangules;
+package ec.edu.geometry.shapes.triangules;
 
 public class IsoscelesTriangle extends RigthAngleTriangle{
 
