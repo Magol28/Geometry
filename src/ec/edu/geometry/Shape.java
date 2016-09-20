@@ -1,5 +1,5 @@
 
-package main.math.geometry;
+package ec.edu.geometry;
 
 public abstract class Shape {
     public abstract Float area();

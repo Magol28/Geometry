@@ -1,5 +1,5 @@
 
-package quadrilaters;
+package ec.edu.geometry.quadrilaters;
 
 public class Square extends Quadrilateral{
 
